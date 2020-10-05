@@ -14,7 +14,8 @@ FROM base AS build
 
 # Git Clone
 WORKDIR /root/git/
-RUN git clone -v https://github.com/fireworm71/veriumMiner ~/git/veriumminer/
+#RUN git clone -v https://github.com/fireworm71/veriumMiner ~/git/veriumminer/
+RUN git clone -v https://github.com/VeriConomy/veriumMiner ~/git/veriumminer/
 
 # Build veriumminer
 WORKDIR /root/git/veriumminer/
