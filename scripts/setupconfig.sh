@@ -8,8 +8,8 @@ if [ ! -f "$configurationfile" ]; then
     mkdir -p $configurationdirectory
 
 /bin/cat <<EOM >$configurationfile
-veriumminer_stratumurl=stratum+tcp://eu.vrm.n3rd3d.com:3402
-veriumminer_username=BanaanAppel.donate
+veriumminer_stratumurl=stratum+tcp://eu.vrm.mining-pool.ovh:3037
+veriumminer_username=JohanTheDeveloper.donate
 veriumminer_password=ThankYou
 EOM
 
